@@ -1,0 +1,21 @@
+const mongoose = require('mongoose')
+
+const userSchema = new mongoose.Schema({
+    sender: {
+        type: String,
+        required: true,
+        enum: ["user"]
+    },
+    text: {
+        type: String,
+        required: true
+    },
+    timstamp: {
+        type: Date,
+        default: Date.now
+    }
+})
+
+const User = mongoose.model("User", userSchema)
+
+module.exports = { User }
