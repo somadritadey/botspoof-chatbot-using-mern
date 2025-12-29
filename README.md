@@ -55,3 +55,10 @@ The application demonstrates seamless **frontend–backend integration**, RESTfu
 3. The backend processes the message and stores it in MongoDB.
 4. A response is sent back to the frontend.
 5. The UI updates dynamically to display the conversation.
+
+---
+
+## Screenshots
+
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/a8ba9457-4fcb-4af1-922c-592a8bddcc15" />
+<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/7d365fd9-ae44-40e7-89e0-d6ffe6d5f640" />
